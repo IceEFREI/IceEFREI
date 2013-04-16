@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6478A06171DC20A00AD2266 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6478A05171DC20A00AD2266 /* CoreLocation.framework */; };
 		D6DB96C6171DC1DC00EC9CFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DB96C5171DC1DC00EC9CFC /* UIKit.framework */; };
 		D6DB96C8171DC1DC00EC9CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DB96C7171DC1DC00EC9CFC /* Foundation.framework */; };
 		D6DB96CA171DC1DC00EC9CFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DB96C9171DC1DC00EC9CFC /* CoreGraphics.framework */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D6478A05171DC20A00AD2266 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D6DB96C2171DC1DC00EC9CFC /* Ice EFREI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice EFREI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DB96C5171DC1DC00EC9CFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D6DB96C7171DC1DC00EC9CFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6478A06171DC20A00AD2266 /* CoreLocation.framework in Frameworks */,
 				D6DB96C6171DC1DC00EC9CFC /* UIKit.framework in Frameworks */,
 				D6DB96C8171DC1DC00EC9CFC /* Foundation.framework in Frameworks */,
 				D6DB96CA171DC1DC00EC9CFC /* CoreGraphics.framework in Frameworks */,
@@ -93,6 +96,7 @@
 				D6DB96C5171DC1DC00EC9CFC /* UIKit.framework */,
 				D6DB96C7171DC1DC00EC9CFC /* Foundation.framework */,
 				D6DB96C9171DC1DC00EC9CFC /* CoreGraphics.framework */,
+				D6478A05171DC20A00AD2266 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -359,6 +363,7 @@
 				D6DB96FB171DC1DC00EC9CFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

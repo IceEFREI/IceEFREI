@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ICESecondViewController : UIViewController
+@interface ICESecondViewController : UIViewController <CLLocationManagerDelegate>
+
+@property (nonatomic, strong) CLLocationManager *locationManager;
+
+- (void)checkEFREIsDistanceFromLocation:(CLLocation *)location;
 
 @end

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ICEFirstViewController : UIViewController
+@interface ICEFirstViewController : UIViewController <UIWebViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+
+- (BOOL)checkAlreadyLaunched;
+
+- (void)loadWebsite;
 
 @end
